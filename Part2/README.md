@@ -1,7 +1,7 @@
 <img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250" align="right">
 
 # Poker Hand
-
+ 
 # Project Summary
 
 In this project we will continue practicing vanilla Javascript DOM manipulation by creating an editable poker hand. We will be able to edit the styling (color) of each card through vanilla Javascript to match the color it should be. 

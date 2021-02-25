@@ -13,6 +13,7 @@
     <h1>Tic Tac Toe Board!</h1>
   </nav>
   <main>
+    <button id="play-again" onclick="playAgain()">Play Again?</button>
     <table>
       <tr class="row">
         <td id="0" onclick="play(0)"></td>
@@ -30,9 +31,13 @@
         <td id="8" onclick="play(8)"></td>
       </tr>
     </table>
-    <span>Player </span>
-    <span id="player">X</span>
-    <span>'s turn</span>
+    <section>
+      <p><span>Player </span>
+        <span id="player">X</span>
+        <span>'s turn<br></span>
+      </p>
+      <button onclick="clearBoardInGame()">Start Over</button>
+    </section>
   </main>
 </body>
 <script src="index.js"></script>
